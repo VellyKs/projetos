@@ -60,7 +60,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 30%;
-  max-width: 350px;
+  max-width: 300px;
   border: 1px solid black;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -84,6 +84,17 @@ body {
   & img {
     width: 1rem;
   }
+}
+
+@media (max-width:600px){
+  /* #lista{
+    display: none;
+  } */
+  #btn-create{
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+
 }
 
 
